@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: justify;
+            background-image: linear-gradient(to right, red, green);
+        }
+        h1{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 3em;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: aquamarine;
+        }
+        p{
+            text-indent: 20px;
+        }
+        main{
+            background-color: white;
+            width: 600px;
+            height: 800px;
+            padding: 15px;
+            border-radius: 14px;
+        }
+    </style>
+</head>
+<main>
+    <body>
+        <h1>pseudo element</h1>
+        <h2>Introdução</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequuntur libero in ratione odit impedit praesentium molestias similique minus, fugiat accusantium iure? Eos explicabo, autem ipsa impedit provident reiciendis nisi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum saepe repellendus quisquam delectus aliquid autem consequuntur at, id recusandae dicta iusto amet corporis impedit necessitatibus tempora quidem laborum. Laudantium, omnis!</p>
+        <ol type="A">
+            <li><a href="https://www.youtube.com/?gl=BR" target="_blank">youtube</a></li>
+            <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank">facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">wikipedia</a></li>
+        </ol>
+    </body>
+</main>
+</html>

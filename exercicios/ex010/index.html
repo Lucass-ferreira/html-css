@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ligações em toda parte</title>
+</head>
+<body>
+    <h1>ligaçoes em toda parte</h1>
+    <h2>Joga a âncora, marujo</h2>
+    <p>toda vez que voçê clica em um link, para ir para outra pagina ou até fazer um download, voçê está interegindo com um <em>hyperlink</em></p>
+    <p>para criar um hyperlink, devemos criar âncoras com a tag &lt;a&gt; e seu principal atributo é o <em>href</em>, que cria uma referencia hipertexto</p>
+    <a href="https://www.amazon.com.br/ref=nav_logo" target="_blank" rel="external"> acesse o site da amazon</a>
+    <p>outra tag bem útil da tag âncora é o hreflang, que permite indicar qual é o idioma principal do site onde o link esta desviando o fluxo de navegação.</p>
+    <a href="https://www.amazon.com.br/ref=nav_logo" target="_blank" rel="external" hreflang="pt-br"> acesse o site da amazon</a>
+    <h2>mira ao alvo</h2>
+    <p>Com o atributo target podemos indicar onde o site de destino vai abrir.</p>
+    <p>e com os valores _black: vai abrir o link em uma nova janela em branco</p>
+    <a href="https://www.amazon.com.br/ref=nav_logo" hreflang="pt-br" target="_blank"> acesse o site da amazon/_black</a>
+    <p>e com o valor _self: vai abrir na mesma janela ou frame atual(padrão)</p>
+    <a href="https://www.amazon.com.br/ref=nav_logo" hreflang="pt-br" target="_self"> acesse o site da amazon/_self</a>]
+    <h2>Esse link é o seu ou do outros?</h2>
+    <p>link local ou interno
+        <a href="https://www.amazon.com.br/ref=nav_logo" target="_self" rel="next">amazon/interno</a>
+    </p>
+    <p>link externo
+        <a href="https://www.amazon.com.br/?&tag=hydrbrabk-20&ref=pd_sl_7rwd1q78df_e&adgrpid=79547423725&hvpone=&hvptwo=&hvadid=591863875878&hvpos=&hvnetw=g&hvrand=1740208780073030028&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031696&hvtargid=kwd-10573980&hydadcr=26346_11691057" target="_blank" rel="external"> amazon/externo</a>
+    </p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="imagem/controle-ps4-wallpaper.jpg" download="imagemcontroleps4.jpg" type="application/jpg">link para download da imagem</a></li>
+        <li><a href="imagem/controle-ps4-wallpaper.zip" download="imagemdecontroleps4.zip" type="application/zip">link compactado em ZIP</a></li>
+    </ul>
+    <hr>
+    <p>essa é minha <a href="pag002.html" rel="next">segunda pagina</a>.</p>
+    <p>essa é minha <a href="noticias/index.html" rel="next">terceira pagina</a></p>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, blue, red);
+    text-align: justify;
+    font-weight: normal;
+    font-size: 16px;
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    
+}
+h1#principal{
+    text-align: center;
+    background-color: rgba(218, 24, 24, 0.778);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+  color: rgba(48, 48, 227, 0.944);
+}
+
+.basico{
+    color: rgba(3, 197, 3, 0.861);
+}
+
+.intermediario{
+    color: rgba(201, 201, 13, 0.872);
+}
+
+.avancado{
+    color: rgba(196, 7, 7, 0.875);
+}
+
+p{
+    text-indent: 16px;
+}
