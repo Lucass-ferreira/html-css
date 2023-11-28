@@ -19,13 +19,14 @@ main p{
     font-size: 20px;
 }
 
-div p{
+p.paragrafo{
     background-color: rgba(0, 0, 0, 0.191);
     color: white;
+    padding: 10px;
     
 }
 
-div#foto-fundo1{
+p#foto-fundo1{
     background-color: aqua;
     background-image: url(../imagens/background001.jpg);
     width: 100%;
@@ -36,7 +37,7 @@ div#foto-fundo1{
     background-attachment: fixed;
 }
 
-div#foto-fundo2{
+p#foto-fundo2{
     background-color: aqua;
     background-image: url(../imagens/background002.jpg);
     width: 100%;
