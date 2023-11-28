@@ -1,0 +1,48 @@
+@charset "UTF_8";
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+}
+
+main p{
+    text-align: left;
+    width: 250px;
+    padding: 20px 20px 20px 10px;
+    font-size: 20px;
+}
+
+div p{
+    background-color: rgba(0, 0, 0, 0.191);
+    color: white;
+    
+}
+
+div#foto-fundo1{
+    background-color: aqua;
+    background-image: url(../imagens/background001.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div#foto-fundo2{
+    background-color: aqua;
+    background-image: url(../imagens/background002.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
