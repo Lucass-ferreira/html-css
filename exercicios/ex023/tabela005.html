@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 400px;
+    }
+
+    th,td{
+        border: 1px solid black;
+        padding: 7px;
+    }
+
+    .amarelo{
+        background-color: yellow;
+    }
+
+    .red{
+        background-color: red;
+    }
+
+    .blue{
+        background-color: blue;
+    }
+</style>
+<body>
+    <h1>exercicio de tabela</h1>
+</body>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="red" span="2">
+            <col class="blue">
+            <col class="">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Allison</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Tiktoker</td>
+        </tr>
+        <tr>
+            <td>Juliana</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Biologa</td>
+        </tr>
+        <tr>
+            <td>Emilly</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Secretaria</td>
+        </tr>
+        <tr>
+            <td>Ana Carolina</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Confeiteira</td>
+        </tr>
+        <tr class="destaque">
+            <td>Lucas</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Dev Front-end</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Dev Back-end</td>
+        </tr>
+    </table>
+</html>

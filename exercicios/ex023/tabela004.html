@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tableas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    caption{
+        background-color: lightgray;
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 600px;
+    }
+
+    td, th{
+        border: 1px solid black;
+        padding: 7px;
+    }
+
+</style>
+<body>
+    <h1>Lista de Filmes</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+                <tr>
+                    <th scope="col">Grupo</th>
+                    <th scope="col">Nomes</th>
+                    <th colspan="3" scope="colgroup">Filmes</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Juliana</td>
+                <td>Hulk</td>
+                <td>Hulk 2</td>
+                <td>Hulk 3</td>
+            </tr>
+            <tr>
+                <td>Emilly</td>
+                <td>Shrek</td>
+                <td>Shrek 2</td>
+                <td>Shrek 3</td>
+            </tr>
+            <tr>
+                <td>Ana Carolina</td>
+                <td>Vingadores</td>
+                <td>Leo</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Allison</td>
+                <td>Crepúsculo</td>
+                <td>O Protetor</td>
+                <td>Oppenheimer</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>A Mula</td>
+                <td>O Predestinado</td>
+                <td>Lou</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>O Passageiro</td>
+                <td>Observador</td>
+                <td>Fragmentado</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
