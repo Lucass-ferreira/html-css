@@ -13,10 +13,6 @@ body{
     background-attachment: fixed;
 }
 
-p > img{
-    width: 264px;
-}
-
 a > p{
     background-color: green;
     width: 205px;
@@ -41,26 +37,27 @@ p > a > img{
     border-radius: 100%;
 }
 
-div{
-    text-align: center;
-}
-
 div > iframe{
-    height: 470px;
+    height: 480px;
     width: 265px;
 }
 
-#tela{
+#iphone{
     position: absolute;
 
-    top: 104px;
-    left: 218px;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
-#ajuste{
+#iframe{
     position: absolute;
-    
 
-    top: 183px;
-    left: 240px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
 }
