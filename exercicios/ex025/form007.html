@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <h1>Select, Datalist e textarea em HTML.</h1>
+    <form action="cadastro.php" method="post">
+        <p> 
+            <label for="iestado">Estado:</label>
+            <select name="estado" id="iestado" required>
+
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Região Nordeste">
+                    <option value="BA">Bahia</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
+
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprofissao">Profissão:</label>
+            <input type="text" name="profissao" id="iprofissao" list="Lista de Profissao" required>
+            <datalist id="Lista de Profissao">
+                <option value="Adm">Administrador</option>
+                <option value="Prof">Professor</option>
+                <option value="Med">Médico</option>
+                <option value="Dev">Desenvolvedor</option>
+            </datalist>
+        </p>
+        
+        <p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite sua mensagem aqui" required></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
