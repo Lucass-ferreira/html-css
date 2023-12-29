@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main, body{
+    margin-top: 20px;
+    background-color: rgb(20, 156, 156);
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+}
+
+section > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+section > p{
+    padding: 15px;
+}
+section img{
+    width: 80vw;
+    height: 30vh;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section, header{
+    width: 80vw;
+    margin: auto;
+}
+
+section > form{
+    padding: 10px;
+}
+
+p > label > span {
+    padding-right: 10px;
+    padding-left: 8px;
+}
+
+.login{
+    background-color: rgb(20, 156, 156);
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+input{
+    width: 55vw;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+section > p#botao{
+    width: 60vw;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
