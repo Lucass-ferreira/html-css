@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+body{
+    background-color: #5f2c82;
+}
 
 div img{
-    width: 400px;
+    width: 360px;
     height: 200px;
     margin-top: 40px;
     border-radius: 10px 10px 0px 0px;
@@ -23,7 +26,7 @@ section{
 
     transform: translate(-50%, -52%);
 
-    width: 400px;
+    width: 360px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
 }
@@ -39,7 +42,7 @@ form{
 
 .login{
     background-color: rgb(22, 172, 172);
-    width: 375px;
+    width: 335px;
     padding: 3px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -47,13 +50,13 @@ form{
 
 .cor {
     background-color: rgba(173, 243, 243, 0.859);
-    width: 300px;
+    width: 260px;
     border-radius: 5px;
     padding: 13px;
 }
 
 .botao {
-    width: 380px;
+    width: 340px;
     border-radius: 5px;
     padding: 12px;
     margin-bottom: 5px;
