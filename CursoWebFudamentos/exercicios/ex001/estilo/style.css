@@ -19,5 +19,8 @@ p {
 h2 {
     font-size: 35px;
     text-transform: capitalize;
-    color: red;
+}
+
+a {
+    text-decoration: line-through;
 }
