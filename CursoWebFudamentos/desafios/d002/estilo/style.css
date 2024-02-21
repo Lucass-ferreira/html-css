@@ -13,10 +13,11 @@ body {
 }
 
 h1 {
-    background-color: #9090f1;
+    background-color: #8787e3;
     text-align: center;
-    color: #070751;
-    margin: 15px 0;
+    color: #060649;
+    margin-top: 15px;
+    margin-bottom: 0;
     padding: 5px;
     font-size: 2.5em;
     font-weight: bolder;
@@ -40,6 +41,7 @@ p {
     padding: 10px 0;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -53,6 +55,28 @@ ul li {
 }
 
 #destaque {
+    background-color: #b2b2df;
     text-align: center;
     padding: 0;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 35px 0 10px;
+    
+}
+
+.menu a {
+    background-color: #c0bfbf;;
+    padding: 15px;
+}
+
+.menu a:hover {
+    background-color: #606060;
+    color: white;
+    text-decoration: none;
 }
