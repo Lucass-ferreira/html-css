@@ -47,7 +47,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 ul li {
     list-style-position: inside;
     padding-bottom: 10px;
@@ -56,8 +55,4 @@ ul li {
 #destaque {
     text-align: center;
     padding: 0;
-}
-
-.destaque {
-    font-weight: bold;
 }
