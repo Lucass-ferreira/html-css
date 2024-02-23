@@ -10,17 +10,17 @@ body {
     background-color: #ccc;
 }
 
-nav ul {
+.cabeçalho-menu ul {
     text-align: right;
     padding: 10px;
 }
 
-nav li {
+.cabeçalho-menu li {
     display: inline-block;
     margin: 20px 0;
 }
 
-nav a {
+.cabeçalho-menu a {
     text-decoration: none;
     background-color: #808080b3;
     color: white;
@@ -29,11 +29,11 @@ nav a {
     border-radius: 5px;
 }
 
-nav a:hover {
+.cabeçalho-menu a:hover {
     background-color: rgb(88, 88, 88);
 }
 
-header {
+.cabeçalho {
     background-image: url(../imagens/bg-4.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -41,20 +41,23 @@ header {
     height: 380px;
 }
 
-header h1 {
-    text-align: center;
+.cabeçalho div {
     margin-top: 80px;
+    text-align: center;
+}
+
+.cabeçalho h1 {
+    text-transform: uppercase;
     color: white;
 }
 
-header p.center {
+.cabeçalho p.center {
+    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.601);
     text-align: center;
-    margin: auto;
-    margin-top: 50px;
+    margin: 50px;
     padding: 12px;
-    width: 350px;
     border-bottom: 2px solid;
 } 
 
