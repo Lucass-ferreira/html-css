@@ -17,6 +17,7 @@ body {
 
 .cabeçalho-menu li {
     display: inline-block;
+    text-transform: uppercase;
     margin: 20px 0;
 }
 
@@ -66,7 +67,8 @@ article {
     padding: 10px;
     margin: auto;
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
+    max-width: 800px;
 }
 
 article h1 {
@@ -76,10 +78,16 @@ article h1 {
     margin-bottom: 15px;
 }
 
-aside a {
+article p {
+    margin-bottom: 15px;
+}
+
+.btn {
     background-color: rgb(189, 188, 188);
-    display: inline-block;
-    margin: 10px 0;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    width: fit-content;
     padding: 10px;
     border-radius: 5px;
 }
@@ -90,4 +98,5 @@ footer {
     color: white;
     background-color: gray;
     padding: 20px;
+    letter-spacing: 2px;
 }
