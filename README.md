@@ -1,5 +1,5 @@
 # html-css
- Curso de HTML5 e CSS3 do CursoemVideo
+ Curso básico de HTML5 e CSS3 do CursoemVideo
 
 Mini projeto: [História do Android](https://lucass-ferreira.github.io/html-css/desafio/d010/revisao/site.html)
 
